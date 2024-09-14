@@ -1,12 +1,5 @@
 <script>
-  let files = [
-    './portfolio/img_g1_w1024.webp',
-    './portfolio/img_g2_w1024.webp',
-    './portfolio/img_g3_w1024.webp',
-    './portfolio/img_g4_w1024.webp',
-    './portfolio/img_g5_w1024.webp',
-    './portfolio/img_g6_w1024.webp'
-  ];
+  let files = [];
 </script>
 
 <svelte:head>

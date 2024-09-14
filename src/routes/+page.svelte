@@ -1,5 +1,5 @@
 <script>
-  import logo from '../img/image2.webp';
+  // import logo from '../img/image2.webp';
 </script>
 
 <svelte:head>
@@ -17,14 +17,14 @@
     wood. Immerse yourself in a world where elegance meets innovation, and each corner tells a
     unique story of craftsmanship.
   </p>
-  <img
+  <!-- <img
     fetchpriority="high"
     class="rounded-box"
     width="450"
     height="450"
     src={logo}
     alt="White cupboard with wooden shelves covering whole wall."
-  />
+  /> -->
   <p class="py-6">
     At L2, we don't just design interiors; we craft personalized sanctuaries that resonate with your
     vision. From the rich grains of custom-made furniture to the seamless flow of intricate woodwork

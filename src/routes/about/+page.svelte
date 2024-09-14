@@ -19,7 +19,7 @@
 <div class="w-full mx-auto grid md:grid-cols-1 xl:grid-cols-3 gap-4">
   <div class="card w-80 bg-base-100 shadow-xl mx-auto">
     <figure>
-      <img src="./img/img1.webp" alt="Shoes" />
+      <!-- <img src="./img/img1.webp" alt="Shoes" /> -->
     </figure>
     <div class="card-body items-center text-center">
       <h2 class="card-title">Innovative Craftsmanship</h2>
@@ -36,7 +36,7 @@
   <!-- ... -->
   <div class="card w-80 bg-base-100 shadow-xl mx-auto">
     <figure>
-      <img src="./img/img2.webp" alt="Shoes" />
+      <!-- <img src="./img/img1.webp" alt="Shoes" /> -->
     </figure>
     <div class="card-body items-center text-center">
       <h2 class="card-title">Personalized Excellence</h2>
@@ -52,7 +52,7 @@
   </div>
   <div class="card w-80 bg-base-100 shadow-xl mx-auto">
     <figure>
-      <img src="./img/img3.webp" alt="Shoes" />
+      <!-- <img src="./img/img1.webp" alt="Shoes" /> -->
     </figure>
     <div class="card-body items-center text-center">
       <h2 class="card-title">Crafting Quality</h2>

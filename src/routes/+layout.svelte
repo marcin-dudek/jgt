@@ -60,7 +60,7 @@
             >
             <input
               type="checkbox"
-              value="emerald"
+              value="garden"
               class="toggle theme-controller"
               aria-label="Theme switcher, dark mode and light mode."
             />
