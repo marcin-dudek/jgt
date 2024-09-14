@@ -1,0 +1,3 @@
+#!/bin/sh
+https https://app.cworkshop.co.uk/api/materials.json?categories[]=2&categories[]=3&categories[]=4&categories[]=16&categories[]=11&categories[]=5&categories[]=9&categories[]=13&categories[]=17&categories[]=6&categories[]=7&categories[]=8&phrase=&promotion=&limit=900&offset=0 >> ./request.json
+bat ./request.json | jq '[.items[] | { id, code, name, width, length,core: .core.name, brand: .category.name, thickness:[.material[].thickness] }]' >> data.json

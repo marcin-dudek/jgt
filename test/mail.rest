@@ -1,0 +1,49 @@
+
+
+
+
+
+curl --request POST \
+  --url https://api.brevo.com/v3/smtp/email \
+  --header 'accept: application/json' \
+  --header 'api-key:YOUR_API_KEY' \
+  --header 'content-type: application/json' \
+  --data '{  
+   "sender":{  
+      "name":"Sender Alex",
+      "email":"senderalex@example.com"
+   },
+   "to":[  
+      {  
+         "email":"testmail@example.com",
+         "name":"John Doe"
+      }
+   ],
+   "subject":"Hello world",
+   "htmlContent":"<html><head></head><body><p>Hello,</p>This is my first transactional email sent from Brevo.</p></body></html>"
+}'
+
+###
+post https://api.brevo.com/v3/smtp/email
+accept: application/json
+api-key: xkeysib-
+Content-Type: application/json
+
+{  
+   "sender":{  
+      "name":"Admin",
+      "email":"senderalex@example.com"
+   },
+   "to":[  
+      {  
+         "email":"manekd@gmail.com",
+         "name":"Marcin"
+      }
+   ],
+   "subject":"Hello world",
+   "htmlContent":"<html><head></head><body><p>Hello,</p>This is my first transactional email sent from Brevo.</p></body></html>"
+}
+
+
+###
+get https://app.cworkshop.co.uk/api/materials.json?categories[]=2&categories[]=3&categories[]=4&categories[]=16&categories[]=11&categories[]=5&categories[]=9&categories[]=13&categories[]=17&categories[]=6&categories[]=7&categories[]=8&phrase=&promotion=&limit=900&offset=0
