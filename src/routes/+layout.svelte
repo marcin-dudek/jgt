@@ -42,7 +42,7 @@
         class="mt-3 z-[1] p-2 max-md:shadow menu dropdown-content rounded-box max-md:w-40 md:menu-horizontal max-md:bg-base-200"
       >
         <li><a class="mx-auto" href="about">About Us</a></li>
-        <li><a class="mx-auto" href="portfolio">Portfolio</a></li>
+        <li><a class="mx-auto" href="offer">Offer</a></li>
         <li><a class="mx-auto" href="contact">Contact</a></li>
         <li>
           <label class="flex cursor-pointer gap-2 mx-auto">
