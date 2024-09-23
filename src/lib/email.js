@@ -7,44 +7,13 @@ const b1 = atob(
   'eGtleXNpYi0xZTVlNGViYjBhOGYyZjUyMDlmYzQ3MWY5MzZmYjY5NzkyMWRiNzViZjQzN2FlOWVmNjAxYmIxZmJlNmRkNDY1LTc1a3ZYb2hoMUJRTDBubk4='
 );
 
-const sendEmail = async (id, decors, name, mail, information) => {
-  let data = '';
-  let i = 1;
-  decors.forEach((e) => {
-    data += `<tr>
-    <td rowspan="2"
-      style="text-align: center; vertical-align: middle;padding:0;border-bottom: 1px dotted black;">
-      ${i++}</td>
-    <td style="text-align: center; vertical-align: middle;padding:0;">${e.code}</td>
-    <td style="text-align: center; vertical-align: middle;padding:0;">${e.name}</td>
-    <td style="text-align: center; vertical-align: middle;padding:0;">${e.description}</td>
-    <td rowspan="2"
-      style="text-align: center; vertical-align: middle;padding:0;border-bottom: 1px dotted black;">
-      ${e.quantity}</td>
-  </tr>
-  <tr>
-    <td colspan="1"
-      style="text-align: center; vertical-align: middle;padding:0;border-bottom: 1px dotted black;">
-      Dimensions(mm)
-    </td>
-    <td colspan="2"
-      style="text-align: center; vertical-align: middle;padding:0;border-bottom: 1px dotted black;">
-      ${e.width}x${e.length}x${e.thickness}
-    </td>
-  </tr>`;
-  });
-
+const sendEmail = async (name, mail, content) => {
   let html = template.replace('[NAME]', name);
-  html = html.replace('[DATA]', data);
-  if (information.trim() !== '') {
-    let info = `<tr><td><strong>Additional information:<br></strong> ${information}</td></tr><tr><td height="10">&nbsp;</td></tr>`;
+  if (content.trim() !== '') {
+    let info = `<tr><td><strong>Your message:<br></strong> <i>${content}</i></td></tr><tr><td height="10">&nbsp;</td></tr>`;
     html = html.replace('[INFO]', info);
   } else {
     html = html.replace('[INFO]', '');
-  }
-  let subject = `Pricing #${id}`;
-  if (name.trim() === '') {
-    subject = `Pricing for ${name} #${id}`;
   }
 
   // @ts-ignore
@@ -52,13 +21,13 @@ const sendEmail = async (id, decors, name, mail, information) => {
     'https://api.brevo.com/v3/smtp/email',
     {
       sender: {
-        name: 'L2 Interior Joinery',
-        email: 'juicy.decor.uk@gmail.com'
+        name: 'Just Get Trained',
+        email: 'contact@just-get-trained.com'
       },
       to: [{ email: mail }],
-      cc: [{ email: 'juicy.decor.uk@gmail.com', name: 'L2 Interior Joinery' }],
-      replyTo: { email: 'juicy.decor.uk@gmail.com' },
-      subject: subject,
+      cc: [{ email: 'contact@just-get-trained.com', name: 'Just Get Trained' }],
+      replyTo: { email: 'contact@just-get-trained.com' },
+      subject: 'Just Get Trained - contact',
       htmlContent: html
     },
     {

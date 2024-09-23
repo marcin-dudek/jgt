@@ -1,20 +1,7 @@
 <svelte:head>
-  <title>About us</title>
-  <meta name="description" content="Here you can find read more about our values and priorities." />
+  <title>Offer</title>
+  <meta name="description" content="Here you can find read more about our trainings." />
 </svelte:head>
-
-<!-- <div class="hero">
-  <div class="hero-content text-center">
-    <div class="max-w-md">
-      <h1 class="text-5xl font-bold">Offer</h1>
-      <p class="py-6">
-        All our training programs are compliant with industry standards and regulations, ensuring
-        that participants receive high-quality, accredited education that enhances their
-        credentials.
-      </p>
-    </div>
-  </div>
-</div> -->
 
 <div class="hero bg-base-200">
   <div class="hero-content flex-col lg:flex-row">
