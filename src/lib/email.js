@@ -4,7 +4,7 @@ import * as Sentry from "@sentry/sveltekit";
 
 const a1 = atob('YXBpLWtleQ==');
 const b1 = atob(
-  'eGtleXNpYi0xZTVlNGViYjBhOGYyZjUyMDlmYzQ3MWY5MzZmYjY5NzkyMWRiNzViZjQzN2FlOWVmNjAxYmIxZmJlNmRkNDY1LTc1a3ZYb2hoMUJRTDBubk4='
+  'eGtleXNpYi0xZTVlNGViYjBhOGYyZjUyMDlmYzQ3MWY5MzZmYjY5NzkyMWRiNzViZjQzN2FlOWVmNjAxYmIxZmJlNmRkNDY1LW5ITWZlbWFkbTl2RXJXNnI='
 );
 
 const sendEmail = async (name, mail, content) => {
