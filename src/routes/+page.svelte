@@ -10,8 +10,8 @@
   />
 </svelte:head>
 
-<div class="flex flex-col max-w-md mx-auto">
-  <h1 class="text-5xl font-bold">Welcome to JTG</h1>
+<div class="flex flex-col">
+  <h1 class="text-5xl font-bold mx-auto">Welcome to JTG</h1>
   <p class="py-6">
     Just Get Trained is dedicated to providing top-notch training and certification services that
     empower individuals and organizations in the construction and related industries. With a focus
@@ -23,11 +23,11 @@
 		converge to create spaces that transcend the ordinary. Welcome to a world where wood isn't
 		just a material; it's the soul of design.
 	</p> -->
-  <p class="py-6">
+  <p class="py-6 mx-auto">
     <picture>
-      <source media="max-w-md" srcset="./img/home_300.webp" />
-      <source media="min-w-lg" srcset="./img/home_750.webp" />
-      <img src="./img/home_750.webp" alt="Chris standing up holding his daughter Elva" />
+      <source media="(max-width:md)" srcset="./img/home_300.webp" />
+      <source media="(min-width:lg)" srcset="./img/home_750.webp" />
+      <img src="./img/home_750.webp" alt="Man in cask drawing with pencil in notebook." />
     </picture>
   </p>
 </div>
