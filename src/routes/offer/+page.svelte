@@ -7,6 +7,8 @@
   <div class="hero-content flex-col lg:flex-row">
     <img
       src="./img/offer1_300.webp"
+      width="300"
+      height="300"
       alt="Man with laptop observing construction site."
       class="max-w-sm rounded-lg shadow-2xl"
     />
@@ -32,6 +34,8 @@
   <div class="hero-content flex-col lg:flex-row">
     <img
       src="./img/offer2_300.webp"
+      width="300"
+      height="300"
       alt="Group of people standing in front of construction site."
       class="max-w-sm rounded-lg shadow-2xl"
     />
@@ -65,6 +69,8 @@
   <div class="hero-content flex-col lg:flex-row">
     <img
       src="./img/offer3_300.webp"
+      width="300"
+      height="300"
       alt="Man in front of huge laptop observing construction site."
       class="max-w-sm rounded-lg shadow-2xl"
     />
