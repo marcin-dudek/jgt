@@ -1,6 +1,5 @@
 import template from './email.html?raw';
 import axios from 'axios';
-import * as Sentry from "@sentry/sveltekit";
 
 const a1 = atob('YXBpLWtleQ==');
 const b1 = atob(
@@ -38,8 +37,6 @@ const sendEmail = async (name, mail, content) => {
       }
     }
   );
-
-  Sentry.captureMessage(`Email sent - status: ${r.status}, ${r.statusText}.`, 'info');
 
   return r.status <= 299;
 };
