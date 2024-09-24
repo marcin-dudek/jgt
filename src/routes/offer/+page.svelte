@@ -5,7 +5,11 @@
 
 <div class="hero bg-base-200">
   <div class="hero-content flex-col lg:flex-row">
-    <img src="./placeholder.png" alt="placeholder" class="max-w-sm rounded-lg shadow-2xl" />
+    <img
+      src="./img/offer1_300.webp"
+      alt="Man with laptop observing construction site."
+      class="max-w-sm rounded-lg shadow-2xl"
+    />
     <div>
       <h1 class="py-6 text-3xl font-bold">CPCS Red Card Training in Lifting Operations</h1>
       <p class="py-2 text-left">
@@ -26,7 +30,11 @@
 
 <div class="hero bg-base-200">
   <div class="hero-content flex-col lg:flex-row">
-    <img src="./placeholder.png" alt="placeholder" class="max-w-sm rounded-lg shadow-2xl" />
+    <img
+      src="./img/offer2_300.webp"
+      alt="Group of people standing in front of construction site."
+      class="max-w-sm rounded-lg shadow-2xl"
+    />
     <div>
       <h1 class="py-6 text-3xl font-bold">NVQs from Level 2 to 7</h1>
       <p class="py-2 text-left">
@@ -55,9 +63,12 @@
 
 <div class="hero bg-base-200">
   <div class="hero-content flex-col lg:flex-row">
-    <img src="./placeholder.png" alt="placeholder" class="max-w-sm rounded-lg shadow-2xl" />
+    <img
+      src="./img/offer3_300.webp"
+      alt="Man in front of huge laptop observing construction site."
+      class="max-w-sm rounded-lg shadow-2xl"
+    />
     <div>
-      <h1 class="py-6 text-3xl font-bold">Online Courses for Specific Site Tasks</h1>
       <p class="py-2 text-left">
         Our online courses are designed to provide targeted training for specific site tasks,
         offering convenience and accessibility to learners.

@@ -19,7 +19,7 @@
 <div class="w-full mx-auto grid md:grid-cols-1 xl:grid-cols-2 gap-6 xl:py-6">
   <div class="card w-80 bg-base-100 shadow-xl mx-auto">
     <figure>
-      <!-- <img src="./img/img1.webp" alt="Shoes" /> -->
+      <img src="./img/about1_300.webp" alt="Expert Trainers" />
     </figure>
     <div class="card-body items-center text-center">
       <h2 class="card-title">Expert Trainers</h2>
@@ -33,7 +33,7 @@
   <!-- ... -->
   <div class="card w-80 bg-base-100 shadow-xl mx-auto">
     <figure>
-      <!-- <img src="./img/img1.webp" alt="Shoes" /> -->
+      <img src="./img/about2_300.webp" alt="Flexible Learning Options" />
     </figure>
     <div class="card-body items-center text-center">
       <h2 class="card-title">Flexible Learning Options</h2>
@@ -46,7 +46,7 @@
   </div>
   <div class="card w-80 bg-base-100 shadow-xl mx-auto">
     <figure>
-      <!-- <img src="./img/img1.webp" alt="Shoes" /> -->
+      <img src="./img/about3_300.webp" alt="Supportive Learning Environment" />
     </figure>
     <div class="card-body items-center text-center">
       <h2 class="card-title">Supportive Learning Environment</h2>
@@ -59,7 +59,7 @@
   </div>
   <div class="card w-80 bg-base-100 shadow-xl mx-auto">
     <figure>
-      <!-- <img src="./img/img1.webp" alt="Shoes" /> -->
+      <img src="./img/about4_300.webp" alt="Compliance and Quality" />
     </figure>
     <div class="card-body items-center text-center">
       <h2 class="card-title">Compliance and Quality</h2>

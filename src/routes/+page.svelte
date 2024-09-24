@@ -23,4 +23,11 @@
 		converge to create spaces that transcend the ordinary. Welcome to a world where wood isn't
 		just a material; it's the soul of design.
 	</p> -->
+  <p class="py-6">
+    <picture>
+      <source media="max-w-md" srcset="./img/home_300.webp" />
+      <source media="min-w-lg" srcset="./img/home_750.webp" />
+      <img src="./img/home_750.webp" alt="Chris standing up holding his daughter Elva" />
+    </picture>
+  </p>
 </div>
