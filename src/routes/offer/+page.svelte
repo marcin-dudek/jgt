@@ -3,7 +3,7 @@
   <meta name="description" content="Here you can find read more about our trainings." />
 </svelte:head>
 
-<div class="hero bg-base-200">
+<div class="hero bg-base-200 rounded-lg">
   <div class="hero-content flex-col lg:flex-row">
     <img
       src="./img/offer1_300.webp"
@@ -28,7 +28,7 @@
 
 <div class="py-6" />
 
-<div class="hero bg-base-200">
+<div class="hero bg-base-200 rounded-lg">
   <div class="hero-content flex-col lg:flex-row">
     <img
       src="./img/offer2_300.webp"
@@ -61,7 +61,7 @@
 
 <div class="py-6" />
 
-<div class="hero bg-base-200">
+<div class="hero bg-base-200 rounded-lg">
   <div class="hero-content flex-col lg:flex-row">
     <img
       src="./img/offer3_300.webp"
