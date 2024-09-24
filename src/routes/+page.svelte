@@ -27,7 +27,13 @@
     <picture class="rounded-lg">
       <source media="(max-width:650px)" srcset="./img/home_300.webp" />
       <source media="(min-width:651px)" srcset="./img/home_750.webp" />
-      <img src="./img/home_750.webp" alt="Man in cask drawing with pencil in notebook." />
+      <img
+        src="./img/home_750.webp"
+        class="rounded-lg"
+        width="750"
+        height="750"
+        alt="Man in cask drawing with pencil in notebook."
+      />
     </picture>
   </p>
 </div>
