@@ -10,7 +10,7 @@
   <p>
     Effective Date: 15/06/2023 This Privacy Policy describes how we collect, use, disclose, and
     protect your personal information when you visit our website
-    <a href="l2interiorjoinery.co.uk">l2interiorjoinery.co.uk</a>
+    <a href="just-get-trained.com">just-get-trained.com</a>
     (the "Website"). By accessing or using the Website, you agree to the terms and conditions of this
     Privacy Policy.
   </p>
@@ -108,7 +108,7 @@
     <li>
       Contact Us: If you have any questions, concerns, or requests regarding this Privacy Policy or
       our privacy practices, please contact us at
-      <a href="mailto:info@l2interiorjoinery.co.uk">info@l2interiorjoinery.co.uk</a>
+      <a href="mailto:contact@just-get-trained.com">contact@just-get-trained.com</a>
     </li>
     <li>
       By using the Website, you acknowledge that you have read and understood this Privacy Policy

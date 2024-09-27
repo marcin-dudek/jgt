@@ -6,13 +6,7 @@
   <div class="navbar">
     <div class="flex-1">
       <a class="btn btn-ghost" href="/">
-        <img
-          src="./logo.webp"
-          width="46"
-          height="46"
-          class="h-full"
-          alt="L2 Interior Joinery Logo which is diamond shaped object build with tiles"
-        />
+        <img src="./logo.webp" width="46" height="46" class="h-full" alt="Just Get Trained logo" />
         <div>
           <p class="text-2xl gap-0 leading-5">Just Get Trained</p>
         </div></a
