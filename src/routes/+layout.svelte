@@ -6,9 +6,15 @@
   <div class="navbar">
     <div class="flex-1">
       <a class="btn btn-ghost" href="/">
-        <img src="./logo.webp" width="46" height="46" class="h-full" alt="Just Get Trained logo" />
+        <img
+          src="./logo-transparent.webp"
+          width="46"
+          height="46"
+          class="h-full"
+          alt="Just Get Trained logo"
+        />
         <div>
-          <p class="text-2xl gap-0 leading-5">Just Get Trained</p>
+          <p class="text-2xl gap-0 leading-5 text-bold">Just Get Trained</p>
         </div></a
       >
     </div>
@@ -37,6 +43,7 @@
       >
         <li><a class="mx-auto" href="about">About Us</a></li>
         <li><a class="mx-auto" href="offer">Offer</a></li>
+        <li><a class="mx-auto" href="nvq-courses">NVQ Courses</a></li>
         <li><a class="mx-auto" href="contact">Contact</a></li>
         <li>
           <label class="flex cursor-pointer gap-2 mx-auto">

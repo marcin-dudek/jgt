@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>About us</title>
+  <title>About Us</title>
   <meta name="description" content="Here you can find read more about our values and priorities." />
 </svelte:head>
 
