@@ -11,18 +11,18 @@
 </svelte:head>
 
 <div class="flex flex-col">
-  <h1 class="text-5xl font-bold mx-auto">Welcome to JTG</h1>
+  <h1 class="text-5xl font-bold mx-auto">Welcome to JTG LOL!</h1>
   <p class="py-6">
-    Just Get Trained is dedicated to providing top-notch training and certification services that
-    empower individuals and organizations in the construction and related industries. With a focus
-    on practical skills, safety, and professional growth, Just Get Trained offers a range of
-    training solutions designed to meet the needs of today's workforce.
+    Welcome to Just Get Trained, the premier e-learning platform dedicated to empowering
+    construction professionals through top-notch training and development. In an industry where
+    skills and safety are paramount, we provide a comprehensive suite of online courses designed to
+    enhance your expertise, boost your career, and ensure you stay ahead of the curve. Our engaging,
+    interactive modules cover everything from essential safety protocols to advanced construction
+    techniques, all tailored to meet the unique demands of today's workforce. Whether you're a
+    seasoned veteran or just starting your journey, Just Get Trained is here to equip you with the
+    knowledge and confidence you need to succeed in the ever-evolving construction landscape. Join
+    us and take the next step in your professional development!
   </p>
-  <!-- <p class="py-6">
-		Step into a realm where every detail matters, where your dreams and our craftsmanship
-		converge to create spaces that transcend the ordinary. Welcome to a world where wood isn't
-		just a material; it's the soul of design.
-	</p> -->
   <p class="py-6 mx-auto">
     <picture class="rounded-lg">
       <source media="(max-width:650px)" srcset="./img/home_300.webp" />
