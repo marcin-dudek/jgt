@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>Offer</title>
+  <title>Services</title>
   <meta name="description" content="Here you can find read more about our trainings." />
 </svelte:head>
 
