@@ -11,7 +11,7 @@
 </svelte:head>
 
 <div class="flex flex-col">
-  <h1 class="text-5xl font-bold mx-auto">Welcome to JTG LOL!</h1>
+  <h1 class="text-5xl font-bold mx-auto">Welcome to JGT LOL!</h1>
   <p class="py-6">
     Welcome to Just Get Trained, the premier e-learning platform dedicated to empowering
     construction professionals through top-notch training and development. In an industry where
