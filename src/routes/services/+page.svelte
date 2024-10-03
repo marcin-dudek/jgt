@@ -1,6 +1,9 @@
 <svelte:head>
   <title>Services</title>
-  <meta name="description" content="Here you can find read more about our trainings." />
+  <meta
+    name="description"
+    content="Here you can read more about our trainings and services we provide."
+  />
 </svelte:head>
 
 <div class="hero bg-base-200 rounded-lg">

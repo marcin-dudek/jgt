@@ -1,6 +1,6 @@
 <svelte:head>
   <title>About Us</title>
-  <meta name="description" content="Here you can find read more about our values and priorities." />
+  <meta name="description" content="Here you can read more about us." />
 </svelte:head>
 
 <div class="hero">
