@@ -65,7 +65,7 @@
       return;
     }
 
-    showToast('Message has been sent. You will get back to you within 3 business days.', 'success');
+    showToast('Message has been sent. We will get back to you within 3 business days.', 'success');
     inputs = {
       name: '',
       email: '',
