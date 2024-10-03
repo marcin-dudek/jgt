@@ -6,7 +6,6 @@
 <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
   <h3 class="mb-4 text-4xl tracking-tight font-extrabold">NVQ courses</h3>
   <ul class="list-disc text-left py-6">
-    <li>Now this is a story all about how, my life got flipped-turned upside down</li>
     <!-- ... -->
     <li>ProQual Level 1 Award in Health and Safety in a Construction Environment</li>
     <li>ProQual Level 2 Certificate in Forklift Truck Operations</li>
