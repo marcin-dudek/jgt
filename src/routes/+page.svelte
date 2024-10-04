@@ -30,6 +30,7 @@
       <img
         src="./img/home_750.webp"
         class="rounded-lg"
+        loading="lazy"
         width="750"
         height="750"
         alt="Man in cask drawing with pencil in notebook."
