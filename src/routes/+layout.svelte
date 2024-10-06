@@ -1,5 +1,9 @@
 <script>
   import '../app.css';
+  import { fly } from 'svelte/transition';
+  import { cubicIn, cubicOut } from 'svelte/easing';
+
+  export let data;
 </script>
 
 <div class="flex flex-col min-h-screen">
@@ -85,9 +89,15 @@
     </div>
   </div>
 
-  <div class="max-md:w-full md:max-w-screen-xl mx-auto px-4 text-center flex-grow">
-    <slot />
-  </div>
+  {#key data.pathname}
+    <div
+      class="max-md:w-full md:max-w-screen-xl mx-auto px-4 text-center flex-grow"
+      in:fly={{ easing: cubicOut, y: 10, duration: 200, delay: 300 }}
+      out:fly={{ easing: cubicIn, y: -10, duration: 200 }}
+    >
+      <slot />
+    </div>
+  {/key}
 
   <footer class="text-center p-4 mt-8">
     <p>
