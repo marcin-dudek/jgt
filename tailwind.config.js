@@ -1,10 +1,12 @@
+import daisyui from 'daisyui';
+
 /** @type {import('tailwindcss').Config} */
-export default {
+const config = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
     extend: {}
   },
-  plugins: [require('daisyui')],
+  plugins: [daisyui],
   daisyui: {
     themes: ['garden', 'luxury'], // false: only light + dark | true: all themes | array: specific themes like this ["light", "dark", "cupcake"]
     darkTheme: 'luxury', // name of one of the included themes for dark mode
@@ -16,3 +18,4 @@ export default {
     themeRoot: ':root' // The element that receives theme color CSS variables
   }
 };
+export default config;
