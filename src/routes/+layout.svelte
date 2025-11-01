@@ -3,6 +3,12 @@
   import { fly } from 'svelte/transition';
   import { page } from '$app/stores';
   import { cubicIn, cubicOut } from 'svelte/easing';
+  import { onMount } from 'svelte';
+  import { themeChange } from 'theme-change';
+
+  onMount(() => {
+    themeChange(false);
+  });
 
   export let data;
   $: q = $page.params.slug;
@@ -68,6 +74,8 @@
             <input
               type="checkbox"
               value="garden"
+              data-toggle-theme="garden,luxury"
+              data-act-class="ACTIVECLASS"
               class="toggle theme-controller"
               aria-label="Theme switcher, dark mode and light mode."
             />

@@ -39,6 +39,7 @@
     "@tailwindcss/vite": "^4.1.16",
     "axios": "^1.13.1",
     "fuse.js": "^7.1.0",
-    "short-unique-id": "^5.3.2"
+    "short-unique-id": "^5.3.2",
+    "theme-change": "^2.5.0"
   }
 }
