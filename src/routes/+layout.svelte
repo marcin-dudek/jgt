@@ -103,7 +103,7 @@
 
   <footer class="text-center p-4 mt-8">
     <p>
-      Copyright &copy; 2024 <a href="https://magickwings.com">Magick Wings</a>. All rights reserved.
+      Copyright &copy; 2025 <a href="https://magickwings.com">Magick Wings</a>. All rights reserved.
       <a href="/privacy-policy">Privacy Policy</a>
     </p>
   </footer>
