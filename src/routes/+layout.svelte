@@ -1,7 +1,6 @@
 <script>
   import '../app.css';
   import { fly } from 'svelte/transition';
-  import { page } from '$app/stores';
   import { cubicIn, cubicOut } from 'svelte/easing';
   import { onMount } from 'svelte';
   import { themeChange } from 'theme-change';
@@ -11,7 +10,10 @@
   });
 
   export let data;
-  $: q = $page.params.slug;
+  $: aboutStyle = data.pathname === '/about' ? 'bg-base-200 rounded-field' : '';
+  $: servicesStyle = data.pathname === '/services' ? 'bg-base-200 rounded-field' : '';
+  $: coursesStyle = data.pathname === '/nvq-courses' ? 'bg-base-200 rounded-field' : '';
+  $: contactStyle = data.pathname === '/contact' ? 'bg-base-200 rounded-field' : '';
 </script>
 
 <div class="flex flex-col min-h-screen">
@@ -53,10 +55,10 @@
         tabindex="0"
         class="mt-3 z-1 p-2 max-md:shadow menu dropdown-content rounded-box max-md:w-40 md:menu-horizontal max-md:bg-base-200"
       >
-        <li><a class="mx-auto" href="about">About Us</a></li>
-        <li><a class="mx-auto" href="services">Services</a></li>
-        <li><a class="mx-auto" href="nvq-courses">NVQ Courses</a></li>
-        <li><a class="mx-auto" href="contact">Contact</a></li>
+        <li><a class={aboutStyle} href="about">About Us</a></li>
+        <li><a class={servicesStyle} href="services">Services</a></li>
+        <li><a class={coursesStyle} href="nvq-courses">NVQ Courses</a></li>
+        <li><a class={contactStyle} href="contact">Contact</a></li>
         <li>
           <label class="flex cursor-pointer gap-2 mx-auto">
             <svg
