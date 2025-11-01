@@ -1,6 +1,6 @@
 {
   "name": "jgt",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "vite dev",
@@ -13,29 +13,32 @@
     "generate:headers": "npm --prefix ./scripts install && node ./scripts/headers.js"
   },
   "devDependencies": {
-    "@sveltejs/adapter-auto": "^3.2.5",
-    "@sveltejs/adapter-static": "^3.0.5",
-    "@sveltejs/kit": "^2.6.2",
-    "@sveltejs/vite-plugin-svelte": "^3.1.2",
+    "@sveltejs/adapter-auto": "^7.0.0",
+    "@sveltejs/adapter-static": "^3.0.10",
+    "@sveltejs/kit": "^2.48.4",
+    "@sveltejs/vite-plugin-svelte": "^6.2.1",
+    "@tailwindcss/postcss": "^4.1.16",
+    "@tailwindcss/typography": "^0.5.19",
     "@types/eslint": "^9.6.1",
-    "autoprefixer": "^10.4.20",
-    "daisyui": "^4.12.11",
-    "eslint": "^8.57.1",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-svelte": "^2.44.1",
-    "postcss": "^8.4.47",
-    "prettier": "^3.3.3",
-    "prettier-plugin-svelte": "^3.2.7",
-    "rollup-plugin-visualizer": "^5.12.0",
-    "svelte": "^4.2.19",
-    "svelte-check": "^4.0.4",
-    "tailwindcss": "^3.4.13",
-    "vite": "^5.4.8"
+    "autoprefixer": "^10.4.21",
+    "daisyui": "^5.3.10",
+    "eslint": "^9.39.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-svelte": "^3.13.0",
+    "postcss": "^8.5.6",
+    "prettier": "^3.6.2",
+    "prettier-plugin-svelte": "^3.4.0",
+    "rollup-plugin-visualizer": "^6.0.5",
+    "svelte": "^5.43.2",
+    "svelte-check": "^4.3.3",
+    "tailwindcss": "^4.1.16",
+    "vite": "^7.1.12"
   },
   "type": "module",
   "dependencies": {
-    "axios": "^1.7.8",
-    "fuse.js": "^7.0.0",
-    "short-unique-id": "^5.2.0"
+    "@tailwindcss/vite": "^4.1.16",
+    "axios": "^1.13.1",
+    "fuse.js": "^7.1.0",
+    "short-unique-id": "^5.3.2"
   }
 }

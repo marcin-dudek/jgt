@@ -1,11 +1,11 @@
-<script type="js">
+<script>
   import { onMount } from 'svelte';
   import sendEmail from '$lib/email';
 
   const min = 50;
 
-  //@type {Date | null}
-  let time = null;
+  // @type {Date}
+  let time = new Date();
   let inputs = {
     name: '',
     email: '',
@@ -23,7 +23,6 @@
     type: ''
   };
 
-  // @ts-ignore
   $: {
     isFormValid = inputs.email.trim() !== '';
   }
@@ -111,7 +110,8 @@
   <form action="#" class="space-y-8">
     <div>
       <label
-        class="input input-bordered flex items-center gap-2 {validate && inputs.email.trim() === ''
+        class="input input-bordered flex items-center gap-2 w-full {validate &&
+        inputs.email.trim() === ''
           ? 'input-error'
           : ''}"
       >
@@ -130,7 +130,7 @@
       </label>
     </div>
     <div>
-      <label class="input input-bordered flex items-center gap-2">
+      <label class="input input-bordered flex items-center gap-2 w-full">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 16 16"
@@ -144,7 +144,7 @@
       </label>
     </div>
     <div>
-      <label class="input input-bordered flex items-center gap-2">
+      <label class="input input-bordered flex items-center gap-2 w-full">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"

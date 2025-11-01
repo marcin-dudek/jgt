@@ -1,9 +1,11 @@
 <script>
   import '../app.css';
   import { fly } from 'svelte/transition';
+  import { page } from '$app/stores';
   import { cubicIn, cubicOut } from 'svelte/easing';
 
   export let data;
+  $: q = $page.params.slug;
 </script>
 
 <div class="flex flex-col min-h-screen">
@@ -43,7 +45,7 @@
       <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
       <ul
         tabindex="0"
-        class="mt-3 z-[1] p-2 max-md:shadow menu dropdown-content rounded-box max-md:w-40 md:menu-horizontal max-md:bg-base-200"
+        class="mt-3 z-1 p-2 max-md:shadow menu dropdown-content rounded-box max-md:w-40 md:menu-horizontal max-md:bg-base-200"
       >
         <li><a class="mx-auto" href="about">About Us</a></li>
         <li><a class="mx-auto" href="services">Services</a></li>
@@ -91,7 +93,7 @@
 
   {#key data.pathname}
     <div
-      class="max-md:w-full md:max-w-screen-xl mx-auto px-4 text-center flex-grow"
+      class="max-md:w-full md:max-w-7xl mx-auto px-4 text-center grow"
       in:fly={{ easing: cubicOut, y: 10, duration: 200, delay: 300 }}
       out:fly={{ easing: cubicIn, y: -10, duration: 200 }}
     >

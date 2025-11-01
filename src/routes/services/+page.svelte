@@ -31,7 +31,7 @@
   </div>
 </div>
 
-<div class="py-6" />
+<div class="py-6"></div>
 
 <div class="hero bg-base-200 rounded-lg">
   <div class="hero-content flex-col lg:flex-row">
@@ -66,7 +66,7 @@
   </div>
 </div>
 
-<div class="py-6" />
+<div class="py-6"></div>
 
 <div class="hero bg-base-200 rounded-lg">
   <div class="hero-content flex-col lg:flex-row">
