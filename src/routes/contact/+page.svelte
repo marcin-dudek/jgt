@@ -101,7 +101,7 @@
   />
 </svelte:head>
 
-<div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+<div class="py-8 lg:py-16 px-4 mx-auto max-w-3xl">
   <h3 class="mb-4 text-4xl tracking-tight font-extrabold">Contact Us</h3>
   <p class="mb-8 lg:mb-16">
     Got a question? What to get more information about us? Need any special training needs. Let us
